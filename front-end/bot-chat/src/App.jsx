@@ -1,8 +1,9 @@
+import './App.css'
 import Chat from './Chat';
 
 const App = () => {
   return (
-    <div>
+    <div className='container'>
       <Chat />
     </div>
   );
